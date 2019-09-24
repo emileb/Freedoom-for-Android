@@ -25,20 +25,19 @@ In addition, Freedoom is compatible with much of the vast library of fan-made "W
 
 
 ## "Third-party" library versions used (update this whenever they are updated)
-- [GZDoom Engine](https://github.com/coelckers/gzdoom): [2.0.02/2.0.03](https://github.com/coelckers/gzdoom/tree/df1364e2d7bc3f23a1a3b7afb4c0be731fe080f8) (SUPER ANCIENT, WE KNOW)
+- [GZDoom Engine](https://github.com/coelckers/gzdoom): [2.0.02/2.0.03](https://github.com/coelckers/gzdoom/tree/df1364e2d7bc3f23a1a3b7afb4c0be731fe080f8) (super ancient)
 - [Fluidsynth](https://github.com/FluidSynth/fluidsynth): 1.0.9
 - [SDL](https://www.libsdl.org/): 1.3(?)
 
 
 ## Roadmap (not in order)
+- [ ] Add arm64 support to satisfy August 2019 Google Play requirements
 - [ ] Add a simple download wad from URL fragment like so: https://github.com/mkrupczak3/Freedoom-for-Android/blob/master/Notes8_1.png
 - [ ] Integrate an idgames level browser/downloader
 - [ ] Update FluidSynth from 1.x.x to 2.x.x
 - [ ] Update SDL (and SDLActivity.java) from 1.x to 2.x.x
 - [ ] Update [OpenGL ES](https://developer.android.com/guide/topics/graphics/opengl) from 1.0/1.1 to 3.1 (supported by Android 5.0 (API level 21) and higher)
 - [ ] Switch from using [nvllsvm's MobileTouchControls](https://github.com/nvllsvm/MobileTouchControls) (which is archived, and also a fork of beloko's) to [beloko's](https://github.com/emileb/MobileTouchControls)
-- [ ] Add arm64 support to satisfy August 2019 Google Play requirements
-
 
 ## Notes before building
 A large portion of this project relies on the Android Native Development Kit (NDK) to compile C++ and C code from GZDoom and other sources for use with this app.
