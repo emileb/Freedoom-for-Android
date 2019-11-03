@@ -24,6 +24,8 @@ While the Doom engine and its many spin-offs are open-sourced, most of the Doom'
 The Freedoom project offers an alternative set of assets and game levels that are open-source and can be used with most Doom engines in place of the originals.
 In addition, Freedoom is compatible with much of the vast library of fan-made "WADs" (i.e. game levels) as indexed in the idgames archive.
 
+## Dev Blog (how I made this):
+https://matthew.krupczak.org/2019/10/20/hawking-my-projects-ii-500000-installs-with-freedoom-for-android/
 
 ## "Third-party" library versions used (update this whenever they are updated)
 - [GZDoom Engine](https://github.com/coelckers/gzdoom): [2.0.02/2.0.03](https://github.com/coelckers/gzdoom/tree/df1364e2d7bc3f23a1a3b7afb4c0be731fe080f8) (super ancient)
