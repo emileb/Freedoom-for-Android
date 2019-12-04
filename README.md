@@ -4,7 +4,7 @@
 A fork of nvllsvm's GZDoom-Android port.
 My idea for this fork was to upgrade nvllsvn's GZDoom-Android port, fix the C/C++ engine bugs and the java app bugs, and combine it with the open-source Freedoom (freedoom1.wad and freedoom2.wad) assets to publish a completely open source android game running on the doom engine.
 
-This "bundling" has allowed it to reach a more diverse audience of users whom either don't own Doom or are averse to having to find and copy their legally-owned Doom resource files onto their phones. It has recently passed 550,000 downloads on the Play store.
+This "bundling" has allowed it to reach a more diverse audience of users whom either don't own Doom or are averse to having to find and copy their legally-owned Doom resource files onto their phones. It has recently passed 600,000 downloads on the Play store.
 
 
 ### Help translate!
