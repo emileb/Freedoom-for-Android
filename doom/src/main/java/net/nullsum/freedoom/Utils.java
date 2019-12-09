@@ -66,9 +66,9 @@ public class Utils {
         Utils.copyAsset(responsibleActivity, "CREDITS.txt", fullBaseDir);
 
         // Add Romero's Sigil addon wad
-        Utils.copyAsset(responsibleActivity, "sigil.wad", fullWadDir);
+        Utils.copyAsset(responsibleActivity, "SIGIL_v1_21.wad", fullWadDir);
         // Credits
-        Utils.copyAsset(responsibleActivity, "sigil.txt", fullWadDir);
+        Utils.copyAsset(responsibleActivity, "SIGIL_v1_21.txt", fullWadDir);
 
         // Add 10sector and 10sector2 wads, megawads with ultra small levels
         Utils.copyAsset(responsibleActivity, "10sector.wad", fullWadDir);
