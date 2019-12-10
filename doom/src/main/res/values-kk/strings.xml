@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dummy_string">REMOVEME ADDED TO KICK TRANSIFEX INTO PULLING ON COMMIT</string>
+    <string name="file_permission_fail_toast">Қап! Freedoom деңгейден ортақтастырылған сақтау орнына көшіру үшін файл рұқсаттарын қажет етеді. Бағдарламаны қайта іске қосыңыз</string>
+    <string name="gamepad_tab">геймпад</string>
+    <string name="options_tab">опциялар</string>
+    <string name="no_iwads_err">IWAD файлын таңдаңыз. IWAD файлдарын келесіге көшіру:</string>
+    <string name="ok_confirm">ЖАРАЙДЫ МА</string>
+
+    <!-- gzdoom (freedoom) fragment -->
+    <string name="app_name">Freedoom</string>
+    <string name="start_full">Іске қосу</string>
+    <string name="start_wads">Аддондар</string>
+    <!-- gamepad fragment -->
+    <string name="enable_game_pad_toggle">Ойын тақтасын қосыңыз</string>
+    <string name="hide_touch_controls_toggle">Сенсорлық басқару элементтерін жасырыңыз</string>
+    <!-- gamepad fragment options -->
+    <string name="look_up_down_option">Жоғары / Төменге қарау</string>
+    <string name="look_left_right_option">Солға / оңға қараңыз</string>
+    <string name="forward_back_option">Алға / Артқа</string>
+    <string name="strafe_option">Солға жылжу / Оңға жылжу</string>
+    <string name="attack_option">Шабуыл</string>
+    <string name="attack_alt_option">Балама шабуыл (GZ)</string>
+    <string name="move_back_option">Артқа қарай жылжу</string>
+    <string name="crouch_option">қыңыр (GZ)</string>
+    <string name="custom_0_option">теңшелетін 1 (GZ)</string>
+    <string name="custom_1_option">теңшелетін 2 (GZ)</string>
+    <string name="custom_2_option">теңшелетін 3(GZ)</string>
+    <string name="custom_3_option">теңшелетін 4 (GZ)</string>
+    <string name="custom_4_option">теңшелетін 5 (GZ)</string>
+    <string name="custom_5_option">теңшелетін 6 (GZ)</string>
+    <string name="fly_down_option">төмен қарай ұшу</string>
+    <string name="fly_up_option">жоғары қарай ұшу</string>
+    <string name="fwd_option">Алға жылжу</string>
+    <string name="inv_drop_option">Элементті тастаңыз</string>
+    <string name="inv_next_option">Келесі элемент</string>
+    <string name="inv_prev_option">Алдыңғы элемент</string>
+    <string name="inv_use_option">Элементті пайдаланыңыз</string>
+    <string name="jump_option">Жүгіру (GZ)</string>
+    <string name="left_option">солға жылжу</string>
+    <string name="look_left_option">Солға қараңыз</string>
+    <string name="look_right_option">Оңға қараңыз</string>
+    <string name="map_down_option">картаны төмен қарай жылжытыңыз</string>
+    <string name="map_left_option">картаны солға жылжытыңыз</string>
+    <string name="map_right_option">картаны оңға жылжытыңыз</string>
+    <string name="map_show_option">картасын көрсету</string>
+    <string name="map_up_option">картаны жоғарыға жылжытыңыз</string>
+    <string name="map_zoomin_option">картаны үлкейту</string>
+    <string name="map_zoomout_option">картаны кішірейту</string>
+    <string name="menu_back_option">Мәзір Артқа</string>
+    <string name="menu_down_option">мәзірді төмен жылжытыңыз</string>
+    <string name="menu_left_option">Сол жақ мәзір</string>
+    <string name="menu_right_option">Мәзір оң</string>
+    <string name="menu_select_option">Мәзір таңдаңыз</string>
+    <string name="menu_up_option">мәзір жоғары жылжу</string>
+    <string name="next_weapon_option">Келесі қару</string>
+    <string name="prev_weapon_option">Алдыңғы қару</string>
+    <string name="quick_load_option">тез қалпына келтіру (GZ)</string>
+    <string name="quick_save_option">Жылдам сақтау (GZ)</string>
+    <string name="right_option">Оңға жылжытыңыз</string>
+    <string name="show_keys_option">пернетақтаны көрсету</string>
+    <string name="show_weap_option">Статистиканы / қаруды көрсету</string>
+    <string name="speed_option">іске қосуды қосыңыз</string>
+    <string name="strafe_on_option">солға / оңға жылжуды қосыңыз</string>
+    <string name="use_option">Пайдалану / Ашу</string>
+
+    <!-- options fragment -->
+    <string name="folder_name_prompt">Freedoom қалтасы</string>
+    <string name="wad_dir_prompt">Конфигурация және мазмұн (WAD, DEH және т.б.) каталогы.</string>
+    <string name="divide_resolution_by_prompt">Шешімді бөлу (кідірісті азайту):</string>
+    <string name="reset_button_text">Қалпына келтіру</string>
+    <string name="choose_button_text">Таңдау</string>
+
+    <string-array name="double_tap_actions">
+        <item>Ешқайсысы жоқ</item>
+        <item>Ату</item>
+        <item>Секіру</item>
+        <item>Пайдалану</item>
+    </string-array>
+    <string-array name="double_tap_actions_jk">
+        <item>Ешқайсысы жоқ</item>
+        <item>Ату</item>
+        <item>Секіру</item>
+        <item>Пайдалану</item>
+        <item>Күш қолдану</item>
+    </string-array>
+    <string-array name="quake2_hud_size">
+        <item>Үлкен</item>
+        <item>Орташа</item>
+        <item>Шағын</item>
+    </string-array>
+</resources>

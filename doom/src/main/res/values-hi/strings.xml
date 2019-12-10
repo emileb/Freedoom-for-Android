@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dummy_string">REMOVEME ADDED TO KICK TRANSIFEX INTO PULLING ON COMMIT</string>
+    <string name="file_permission_fail_toast">ऊप्स! फ्रीडूम को साझा भंडारण के स्तर से अधिक कॉपी करने के लिए फ़ाइल अनुमति की आवश्यकता होती है। ऐप को फिर से लॉन्च करें</string>
+    <string name="gamepad_tab">गेमपैड</string>
+    <string name="options_tab">विकल्प</string>
+    <string name="no_iwads_err">कृपया एक IWAD फ़ाइल चुनें। IWAD फ़ाइलों को कॉपी करें:</string>
+    <string name="ok_confirm">ठीक है</string>
+
+    <!-- gzdoom (freedoom) fragment -->
+    <string name="app_name">Freedoom</string>
+    <string name="start_full">प्रक्षेपण</string>
+    <string name="start_wads">ऐड-ऑन</string>
+    <!-- gamepad fragment -->
+    <string name="enable_game_pad_toggle">गेम पैड सक्षम करें</string>
+    <string name="hide_touch_controls_toggle">स्पर्श नियंत्रण छिपाएँ</string>
+    <!-- gamepad fragment options -->
+    <string name="look_up_down_option">ऊपर देखो / नीचे देखो</string>
+    <string name="look_left_right_option">लेफ्ट / लुक राइट देखें</string>
+    <string name="forward_back_option">आगे पीछे</string>
+    <string name="strafe_option">बाएं चलें / दाएँ जाएँ</string>
+    <string name="attack_option">हमला</string>
+    <string name="attack_alt_option">वैकल्पिक हमला (GZ)</string>
+    <string name="move_back_option">पीछे की ओर बढ़ें</string>
+    <string name="crouch_option">क्राउच (GZ)</string>
+    <string name="custom_0_option">कस्टम ए (GZ)</string>
+    <string name="custom_1_option">कस्टम बी (GZ)</string>
+    <string name="custom_2_option">कस्टम C (GZ)</string>
+    <string name="custom_3_option">कस्टम डी (GZ)</string>
+    <string name="custom_4_option">कस्टम ई (GZ)</string>
+    <string name="custom_5_option">कस्टम F (GZ)</string>
+    <string name="fly_down_option">नीचे की तरफ उड़ो</string>
+    <string name="fly_up_option">ऊपर की ओर उड़ो</string>
+    <string name="fwd_option">आगे बढ़ो</string>
+    <string name="inv_drop_option">ड्रॉप आइटम</string>
+    <string name="inv_next_option">अगला आइटम</string>
+    <string name="inv_prev_option">पूर्व वस्तु</string>
+    <string name="inv_use_option">उपयोग वस्तु</string>
+    <string name="jump_option">कूदो (GZ)</string>
+    <string name="left_option">aबाएं खिसको</string>
+    <string name="look_left_option">बाएं देखें</string>
+    <string name="look_right_option">दाएं देखो</string>
+    <string name="map_down_option">नक्शा नीचे ले जाएं</string>
+    <string name="map_left_option">नक्शा छोड़ दिया</string>
+    <string name="map_right_option">नक्शा सही ले जाएँ</string>
+    <string name="map_show_option">नक्शा दिखाओ</string>
+    <string name="map_up_option">नक्शा ऊपर ले जाएँ</string>
+    <string name="map_zoomin_option">नक्शे में ज़ूम करें</string>
+    <string name="map_zoomout_option">नक्शे को ज़ूम आउट करें</string>
+    <string name="menu_back_option">मेनू वापस</string>
+    <string name="menu_down_option">मेनू नीचे ले जाएँ</string>
+    <string name="menu_left_option">मेनू बाएँ</string>
+    <string name="menu_right_option">मेनू राइट</string>
+    <string name="menu_select_option">मेनू का चयन करें</string>
+    <string name="menu_up_option">मेनू ऊपर ले जाएँ</string>
+    <string name="next_weapon_option">अगला हथियार</string>
+    <string name="prev_weapon_option">प्राचीन हथियार</string>
+    <string name="quick_load_option">त्वरित लोड (GZ)</string>
+    <string name="quick_save_option">त्वरित सहेजें (GZ)</string>
+    <string name="right_option">दाएँ चले</string>
+    <string name="show_keys_option">कीबोर्ड दिखाएं</string>
+    <string name="show_weap_option">दिखाएँ आँकड़े / हथियार</string>
+    <string name="speed_option">चलाने में सक्षम</string>
+    <string name="strafe_on_option">लेफ्ट को सक्षम करें / लेफ्ट को राइट करें</string>
+    <string name="use_option">उपयोग / ओपन</string>
+
+    <!-- options fragment -->
+    <string name="folder_name_prompt">फ़्रीडूम फ़ोल्डर</string>
+    <string name="wad_dir_prompt">कॉन्फ़िगरेशन और सामग्री (WAD, DEH, आदि) निर्देशिका।</string>
+    <string name="divide_resolution_by_prompt">द्वारा विभाजित संकल्प (अंतराल को कम करें):</string>
+    <string name="reset_button_text">रीसेट</string>
+    <string name="choose_button_text">चुनें</string>
+
+    <string-array name="double_tap_actions">
+        <item>कोई नहीं</item>
+        <item>गोली मार</item>
+        <item>कूद</item>
+        <item>उपयोग</item>
+    </string-array>
+    <string-array name="double_tap_actions_jk">
+        <item>कोई नहीं</item>
+        <item>गोली मार</item>
+        <item>कूद</item>
+        <item>उपयोग</item>
+        <item>बल का प्रयोग करें</item>
+    </string-array>
+    <string-array name="quake2_hud_size">
+        <item>विशाल</item>
+        <item>मध्यम</item>
+        <item>छोटा</item>
+    </string-array>
+</resources>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="dummy_string">REMOVEME ADDED TO KICK TRANSIFEX INTO PULLING ON COMMIT</string>
-    <string name="file_permission_fail_toast">OOPS! NO! NO! NO! ERROR! ERROR! ERROR! BAD! BAD! BAD!</string>
+    <string name="dummy_string">REMOVEME HINZUGEFÜGT UM TRANSIFEX ZUM PULLEN EINES COMMITS ZU KICKEN</string>
+    <string name="file_permission_fail_toast">Uups! Freedoom benötigt zugriff auf Ihre Lokalen Datein, um Level in den gemeinsamen Speicher zu kopieren. Bitte starten sie die App neu!</string>
     <string name="gamepad_tab">Gamepad</string>
     <string name="options_tab">Optionen</string>
     <string name="no_iwads_err">Bitte wählen Sie eine IWAD-Datei aus. Kopiere IWAD-Dateien nach:</string>
     <string name="ok_confirm">OK</string>
 
-    <!-- gzdoom (freedoom) fragment-->
-    <string name="app_name">Freiraum</string>
+    <!-- gzdoom (freedoom) fragment -->
+    <string name="app_name">Freedoom<br></string>
     <string name="start_full">Starten</string>
     <string name="start_wads">Ergänzungen</string>
     <!-- gamepad fragment -->
@@ -67,10 +67,10 @@
 
     <!-- options fragment -->
     <string name="folder_name_prompt">Freiraum-Mappe</string>
-    <string name="wad_dir_prompt">Konfigurations- und Inhaltsverzeichnis (WAD, DEH usw.) Mappe.</string>
-    <string name="divide_resolution_by_prompt">Auflösung teilen durch:</string>
-    <string name="reset_button_text">zurücksetzen</string>
-    <string name="choose_button_text">wählen</string>
+    <string name="wad_dir_prompt">Konfigurations- und Inhaltsverzeichnis (WAD, DEH usw.).</string>
+    <string name="divide_resolution_by_prompt">Bildschirmauflösung geteilt durch (um Verzögerungen zu minimieren):</string>
+    <string name="reset_button_text">Zurücksetzten</string>
+    <string name="choose_button_text">Auswählen</string>
 
     <string-array name="double_tap_actions">
         <item>Keiner</item>

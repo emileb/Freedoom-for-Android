@@ -1,29 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Thanks Vojtěch Frank -->
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="dummy_string">REMOVEME ADDED TO KICK TRANSIFEX INTO PULLING ON COMMIT</string>
-    <string name="file_permission_fail_toast">OOPS! NO! NO! NO! ERROR! ERROR! ERROR! BAD! BAD! BAD!</string>
-    <string name="gamepad_tab">gamepad</string>
-    <string name="options_tab">možností</string>
+    <string name="file_permission_fail_toast">Jejda! Freedoom potřebuje oprávnění ke kopírování přes úrovně do sdíleného úložiště. Znovu spusťte aplikaci</string>
+    <string name="gamepad_tab">Herní ovladač</string>
+    <string name="options_tab">Nastavení</string>
     <string name="no_iwads_err">Vyberte soubor IWAD. Zkopírujte soubory IWAD do:</string>
     <string name="ok_confirm">OK</string>
 
-    <!-- gzdoom (freedoom) fragment-->
+    <!-- gzdoom (freedoom) fragment -->
     <string name="app_name">Freedoom</string>
     <string name="start_full">Zahájení</string>
     <string name="start_wads">Doplňky</string>
     <!-- gamepad fragment -->
-    <string name="enable_game_pad_toggle">Povolit herní blok</string>
+    <string name="enable_game_pad_toggle">Povolit herní ovladač</string>
     <string name="hide_touch_controls_toggle">Skrýt dotykové ovládání</string>
     <!-- gamepad fragment options -->
     <string name="look_up_down_option">Podívejte se nahoru / dolů</string>
     <string name="look_left_right_option">Podívejte se vlevo / vpravo</string>
-    <string name="forward_back_option">Vpřed / Zpět</string>
+    <string name="forward_back_option">Vpřed / Dozadu</string>
     <string name="strafe_option">Pohyb do strany</string>
-    <string name="attack_option">Záchvat</string>
-    <string name="attack_alt_option">Alt Attack (GZ)</string>
+    <string name="attack_option">Útok</string>
+    <string name="attack_alt_option">Alt. Útok (GZ)</string>
     <string name="move_back_option">Posun dozadu</string>
-    <string name="crouch_option">Crouch (GZ)</string>
+    <string name="crouch_option">Dřep (GZ)</string>
     <string name="custom_0_option">Vlastní A (GZ)</string>
     <string name="custom_1_option">Vlastní B (GZ)</string>
     <string name="custom_2_option">Vlastní C (GZ)</string>
@@ -31,45 +30,45 @@
     <string name="custom_4_option">Vlastní E (GZ)</string>
     <string name="custom_5_option">Vlastní F (GZ)</string>
     <string name="fly_down_option">Letět dolů</string>
-    <string name="fly_up_option">Letět vzůru</string>
+    <string name="fly_up_option">Letět vzhůru</string>
     <string name="fwd_option">Posun vpřed</string>
-    <string name="inv_drop_option">Drop Item</string>
+    <string name="inv_drop_option">Zahodit </string>
     <string name="inv_next_option">Další položka</string>
     <string name="inv_prev_option">Předchozí položka</string>
-    <string name="inv_use_option">Použij předmět</string>
-    <string name="jump_option">Přejít (GZ)</string>
-    <string name="left_option">Strafe vlevo</string>
-    <string name="look_left_option">Podívej se doleva</string>
-    <string name="look_right_option">Podívej se doprava</string>
-    <string name="map_down_option">Automaticky dolů</string>
-    <string name="map_left_option">Automap vlevo</string>
-    <string name="map_right_option">Automaticky vpravo</string>
-    <string name="map_show_option">Zobrazit Automap</string>
-    <string name="map_up_option">Automaticky nahoru</string>
-    <string name="map_zoomin_option">Automap Zoomin</string>
-    <string name="map_zoomout_option">Automap Zoomout</string>
-    <string name="menu_back_option">Menu Zpět</string>
-    <string name="menu_down_option">Menu Dolů</string>
+    <string name="inv_use_option">Použít předmět</string>
+    <string name="jump_option">Skok (GZ)</string>
+    <string name="left_option">Pohyb vlevo</string>
+    <string name="look_left_option">Podívat se doleva</string>
+    <string name="look_right_option">Podívat se doprava</string>
+    <string name="map_down_option">Mapa dolů</string>
+    <string name="map_left_option">Mapa vlevo</string>
+    <string name="map_right_option">Mapa vpravo</string>
+    <string name="map_show_option">Zobrazit mapu</string>
+    <string name="map_up_option">Mapa nahoru</string>
+    <string name="map_zoomin_option">Přiblížit mapu</string>
+    <string name="map_zoomout_option">Oddálit mapu</string>
+    <string name="menu_back_option">Menu zpět</string>
+    <string name="menu_down_option">Menu dolů</string>
     <string name="menu_left_option">Menu vlevo</string>
     <string name="menu_right_option">Menu vpravo</string>
-    <string name="menu_select_option">Menu Zvolte</string>
-    <string name="menu_up_option">Menu Nahoru</string>
+    <string name="menu_select_option">Menu zvolit</string>
+    <string name="menu_up_option">Menu nahoru</string>
     <string name="next_weapon_option">Další zbraň</string>
     <string name="prev_weapon_option">Předchozí zbraň</string>
-    <string name="quick_load_option">Rychlé zatížení (GZ)</string>
-    <string name="quick_save_option">Rychlé uložení (GZ)</string>
-    <string name="right_option">Strafe Right</string>
+    <string name="quick_load_option">Rychle načíst (GZ)</string>
+    <string name="quick_save_option">Rychle uložit (GZ)</string>
+    <string name="right_option">Pohyb vpravo</string>
     <string name="show_keys_option">Zobrazit klíče</string>
     <string name="show_weap_option">Zobrazit statistiky / zbraně</string>
-    <string name="speed_option">Běží na</string>
-    <string name="strafe_on_option">Zapnout</string>
+    <string name="speed_option">Pořád běhat</string>
+    <string name="strafe_on_option">Pořád uhýbat</string>
     <string name="use_option">Použít / Otevřít</string>
 
     <!-- options fragment -->
-    <string name="folder_name_prompt">Složka pro volný čas</string>
-    <string name="wad_dir_prompt">Konfigurace a obsah (WAD, DEH, atd.) Adresář.</string>
-    <string name="divide_resolution_by_prompt">Rozdělit rozlišení podle:</string>
-    <string name="reset_button_text">resetovat</string>
+    <string name="folder_name_prompt">Složka Freedoom</string>
+    <string name="wad_dir_prompt">Složka konfigurace a obsahu (WAD, DEH, atd.)</string>
+    <string name="divide_resolution_by_prompt">Rozdělte rozlišení podle (Snižuje zpoždění):</string>
+    <string name="reset_button_text">Reset</string>
     <string name="choose_button_text">Vybrat</string>
 
     <string-array name="double_tap_actions">
@@ -83,7 +82,7 @@
         <item>Střílet</item>
         <item>Skok</item>
         <item>Použití</item>
-        <item>Použijte Force</item>
+        <item>Použít sílu</item>
     </string-array>
     <string-array name="quake2_hud_size">
         <item>Velký</item>

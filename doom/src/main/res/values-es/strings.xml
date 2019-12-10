@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="dummy_string">REMOVEME ADDED TO KICK TRANSIFEX INTO PULLING ON COMMIT</string>
-    <string name="file_permission_fail_toast">OOPS! NO! NO! NO! ERROR! ERROR! ERROR! BAD! BAD! BAD!</string>
+    <string name="file_permission_fail_toast">Ups! Freedoom necesita permisos de archivos para copiar los niveles al almacenamiento compartido. Por favor reinicia la app</string>
     <string name="gamepad_tab">gamepad</string>
     <string name="options_tab">opciones</string>
     <string name="no_iwads_err">Por favor seleccione un archivo IWAD. Copie los archivos IWAD a:</string>
-    <string name="ok_confirm">Ok</string>
+    <string name="ok_confirm">OK</string>
 
-    <!-- gzdoom (freedoom) fragment-->
+    <!-- gzdoom (freedoom) fragment -->
     <string name="app_name">Freedoom</string>
     <string name="start_full">Comenzar</string>
     <string name="start_wads">Complementos</string>
@@ -68,7 +67,7 @@
     <!-- options fragment -->
     <string name="folder_name_prompt">Freedoom carpeta</string>
     <string name="wad_dir_prompt">Directorio de configuración y contenido (WAD, etc.) carpeta</string>
-    <string name="divide_resolution_by_prompt">Divida la resolución por:</string>
+    <string name="divide_resolution_by_prompt">Dividir resolución por (reduce el lag):</string>
     <string name="reset_button_text">Reiniciar</string>
     <string name="choose_button_text">Escoger</string>
 

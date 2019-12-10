@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="file_permission_fail_toast">ਓਹ ਹੋ! ਫਰੀਡਮ ਨੂੰ ਸ਼ੇਅਰ ਸਟੋਰੇਜ ਵਿੱਚ ਪੱਧਰ ਦੀ ਨਕਲ ਕਰਨ ਲਈ ਫਾਈਲ ਅਨੁਮਤੀਆਂ ਦੀ ਜ਼ਰੂਰਤ ਹੈ. ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਨੂੰ ਦੁਬਾਰਾ ਲਾਂਚ ਕਰੋ</string>
+    <string name="gamepad_tab">ਗੇਮਪੈਡ</string>
+    <string name="options_tab">ਚੋਣਾਂ</string>
+    <string name="no_iwads_err">ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ IWAD ਫਾਈਲ ਦੀ ਚੋਣ ਕਰੋ. IWAD ਫਾਈਲਾਂ ਨੂੰ ਇੱਥੇ ਕਾਪੀ ਕਰੋ:</string>
+    <string name="ok_confirm">ਠੀਕ ਹੈ</string>
+
+    <!-- gzdoom (freedoom) fragment -->
+    <string name="app_name">ਫਰੀਡਮ</string>
+    <string name="start_full">ਚਲਾਓ</string>
+    <string name="start_wads">ਐਡ</string>
+    <!-- gamepad fragment -->
+    <string name="enable_game_pad_toggle">ਗੇਮ ਪੈਡ ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ</string>
+    <string name="hide_touch_controls_toggle">ਟਚ ਕੰਟਰੋਲ ਲੁਕਾਓ</string>
+    <!-- gamepad fragment options -->
+    <string name="look_up_down_option">ਉੱਪਰ ਦੇਖੋ / ਹੇਠਾਂ ਦੇਖੋ</string>
+    <string name="look_left_right_option">ਖੱਬੇ ਪਾਸੇ ਵੇਖੋ / ਸੱਜੇ ਵੇਖੋ</string>
+    <string name="forward_back_option">ਅੱਗੇ ਜਾਣ / ਪਿੱਛੇ ਜਾਣ ਲਈ</string>
+    <string name="strafe_option">ਖੱਬੇ ਹਿਲਾਓ / ਸੱਜੇ ਭੇਜੋ</string>
+    <string name="attack_option">ਹਮਲਾ</string>
+    <string name="attack_alt_option">ਵਿਕਲਪਿਕ ਹਮਲਾ (GZ)</string>
+    <string name="move_back_option">ਪਿੱਛੇ ਹਿਲਾਓ</string>
+    <string name="crouch_option">ਕਰੌਚ (GZ)</string>
+    <string name="custom_0_option">ਕਸਟਮ ਏ (ਜੀ ਜ਼ੈਡ)</string>
+    <string name="custom_1_option">ਕਸਟਮ ਬੀ (GZ)</string>
+    <string name="custom_2_option">ਕਸਟਮ ਸੀ (GZ)</string>
+    <string name="custom_3_option">ਕਸਟਮ ਡੀ (GZ)</string>
+    <string name="custom_4_option">ਕਸਟਮ ਈ (GZ)</string>
+    <string name="custom_5_option">ਕਸਟਮ F (GZ)</string>
+    <string name="fly_down_option">ਹੇਠਾਂ ਉੱਡੋ</string>
+    <string name="fly_up_option">ਉੱਪਰ ਵੱਲ ਉੱਡ ਜਾਓ</string>
+    <string name="fwd_option">ਅੱਗੇ ਵਧੋ</string>
+    <string name="inv_drop_option">ਆਈਟਮ ਸੁੱਟੋ</string>
+    <string name="inv_next_option">ਅਗਲੀ ਆਈਟਮ</string>
+    <string name="inv_prev_option">ਪਿਛਲੀ ਵਸਤੂ</string>
+    <string name="inv_use_option">ਆਈਟਮ ਦੀ ਵਰਤੋਂ ਕਰੋ</string>
+    <string name="jump_option">ਛਾਲ (GZ)</string>
+    <string name="left_option">ਖੱਬੇ ਭੇਜੋ</string>
+    <string name="look_left_option">ਖੱਬੇ ਵੇਖੋ</string>
+    <string name="look_right_option">ਸੱਜੇ ਵੇਖੋ</string>
+    <string name="map_down_option">ਨਕਸ਼ਾ ਨੂੰ ਹੇਠਾਂ ਭੇਜੋ</string>
+    <string name="map_left_option">ਨਕਸ਼ਾ ਖੱਬੇ ਭੇਜੋ</string>
+    <string name="map_right_option">ਨਕਸ਼ਾ ਨੂੰ ਸੱਜੇ ਭੇਜੋ</string>
+    <string name="map_show_option">ਆਟੋਮੈਪ ਵੇਖਾਓ</string>
+    <string name="map_up_option">ਨਕਸ਼ਾ ਉੱਪਰ ਭੇਜੋ</string>
+    <string name="map_zoomin_option">ਨਕਸ਼ਾ ਜ਼ੂਮ ਇਨ</string>
+    <string name="map_zoomout_option">ਨਕਸ਼ਾ ਜ਼ੂਮ ਆਉਟ</string>
+    <string name="menu_back_option">ਮੀਨੂ ਵਾਪਸ</string>
+    <string name="menu_down_option">ਮੀਨੂੰ ਹੇਠਾਂ ਭੇਜੋ</string>
+    <string name="menu_left_option">ਮੀਨੂ ਖੱਬਾ</string>
+    <string name="menu_right_option">ਮੇਨੂ ਸਹੀ</string>
+    <string name="menu_select_option">ਮੇਨੂ ਚੁਣੋ</string>
+    <string name="menu_up_option">ਮੇਨੂ ਉੱਤੇ ਜਾਣ ਲਈ</string>
+    <string name="next_weapon_option">ਅਗਲਾ ਹਥਿਆਰ</string>
+    <string name="prev_weapon_option">ਪਿਛਲਾ ਹਥਿਆਰ</string>
+    <string name="quick_load_option">ਜਲਦੀ ਮੁੜ (GZ)</string>
+    <string name="quick_save_option">ਤਤਕਾਲ ਸੇਵ (GZ)</string>
+    <string name="right_option">ਸੱਜੇ ਭੇਜੋ</string>
+    <string name="show_keys_option">ਕੀਬੋਰਡ ਦਿਖਾਓ</string>
+    <string name="show_weap_option">ਅੰਕੜੇ / ਹਥਿਆਰ ਦਿਖਾਓ</string>
+    <string name="speed_option">ਚਲਾਉਣ ਯੋਗ</string>
+    <string name="strafe_on_option">ਖੱਬੇ ਭੇਜਣ / ਸੱਜੇ ਭੇਜਣ ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ</string>
+    <string name="use_option">ਵਰਤੋਂ / ਖੋਲ੍ਹੋ</string>
+
+    <!-- options fragment -->
+    <string name="folder_name_prompt">ਫਰੀਡੋਮ ਫੋਲਡਰ</string>
+    <string name="wad_dir_prompt">ਕੌਨਫਿਗਰੇਸ਼ਨ ਅਤੇ ਸਮੱਗਰੀ (WAD, DEH, ਆਦਿ) ਫੋਲਡਰ.</string>
+    <string name="divide_resolution_by_prompt">ਰੈਗੋਲਿ Divਸ਼ਨ ਨੂੰ ਇਸ ਨਾਲ ਵੰਡੋ (ਅੰਤਰ ਘਟਾਓ):</string>
+    <string name="reset_button_text">ਰੀਸੈੱਟ</string>
+    <string name="choose_button_text">ਚੁਣੋ</string>
+
+    <string-array name="double_tap_actions">
+        <item>ਕੋਈ ਨਹੀਂ</item>
+        <item>ਸ਼ੂਟ</item>
+        <item>ਛਾਲ ਮਾਰੋ</item>
+        <item>ਵਰਤੋਂ</item>
+    </string-array>
+    <string-array name="double_tap_actions_jk">
+        <item>ਕੋਈ ਨਹੀਂ</item>
+        <item>ਸ਼ੂਟ</item>
+        <item>ਛਾਲ ਮਾਰੋ</item>
+        <item>ਵਰਤੋਂ</item>
+        <item>ਵਰਤੋਂ ਬਲ</item>
+    </string-array>
+    <string-array name="quake2_hud_size">
+        <item>ਵੱਡਾ</item>
+        <item>ਦਰਮਿਆਨੇ</item>
+        <item>ਛੋਟਾ</item>
+    </string-array>
+</resources>

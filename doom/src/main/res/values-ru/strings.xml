@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="file_permission_fail_toast">УПС! Freedoom нужны права на запись чтобы записать наши уровни на вашу память. Пожайлуста перезапустите игру</string>
+    <string name="dummy_string">REMOVEME ADDED TO KICK TRANSIFEX INTO PULLING ON COMMIT </string>
+    <string name="file_permission_fail_toast">Упс! Freedom нужно разрешение на запись, чтобы копировать уровни в память устройства. Перезапустите приложение</string>
     <string name="gamepad_tab">Геймпад</string>
     <string name="options_tab">Настройки</string>
     <string name="no_iwads_err">Пожалуйста, выберите IWAD файл. Скопируйте IWAD файлы в:</string>
-    <string name="ok_confirm">Хорошо</string>
+    <string name="ok_confirm">ОК</string>
 
-    <!-- gzdoom (freedoom) fragment-->
+    <!-- gzdoom (freedoom) fragment -->
     <string name="app_name">Freedoom</string>
     <string name="start_full">Запустить</string>
     <string name="start_wads">Модификации</string>
@@ -67,9 +68,9 @@
     <!-- options fragment -->
     <string name="folder_name_prompt">Папка Freedoom</string>
     <string name="wad_dir_prompt">содержание (WAD) папка</string>
-    <string name="divide_resolution_by_prompt">Разделить экран на (уменьшить отставание):</string>
-    <string name="reset_button_text">сброс</string>
-    <string name="choose_button_text">выбирать</string>
+    <string name="divide_resolution_by_prompt">Разделить разрешение экрана на (уменьшает лаги):</string>
+    <string name="reset_button_text">Перезапуск</string>
+    <string name="choose_button_text">Выбрать</string>
 
     <string-array name="double_tap_actions">
         <item>Ничего</item>

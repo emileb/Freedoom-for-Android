@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="file_permission_fail_toast">ওহো! শেয়ারড স্টোরেজে স্তরের অনুলিপি করতে ফ্রিডম ফাইলের অনুমতি প্রয়োজন। অ্যাপ্লিকেশন পুনরায় চালু করুন</string>
+    <string name="gamepad_tab">গেমপ্যাড</string>
+    <string name="options_tab">অপশন</string>
+    <string name="no_iwads_err">দয়া করে একটি IWAD ফাইল নির্বাচন করুন। IWAD ফাইলগুলি এতে অনুলিপি করুন:</string>
+    <string name="ok_confirm">ঠিক আছে</string>
+
+    <!-- gzdoom (freedoom) fragment -->
+    <string name="app_name">মুক্তি</string>
+    <string name="start_full">শুরু করা</string>
+    <string name="start_wads">অ্যাডঅনস</string>
+    <!-- gamepad fragment -->
+    <string name="enable_game_pad_toggle">গেম প্যাড সক্ষম করুন</string>
+    <string name="hide_touch_controls_toggle">টাচ নিয়ন্ত্রণগুলি লুকান</string>
+    <!-- gamepad fragment options -->
+    <string name="look_up_down_option">তাকান / নিচে তাকান</string>
+    <string name="look_left_right_option">বাম দিকে দেখুন / ডানদিকে তাকান</string>
+    <string name="forward_back_option">ফরওয়ার্ড / পিছনে</string>
+    <string name="strafe_option">বামে যাও / ডানে যাও</string>
+    <string name="attack_option">আক্রমণ</string>
+    <string name="attack_alt_option">বিকল্প আক্রমণ (GZ)</string>
+    <string name="move_back_option">পিছন দিকে সরানো</string>
+    <string name="crouch_option">ক্রাউচ (GZ)</string>
+    <string name="custom_0_option">কাস্টম এ (GZ)</string>
+    <string name="custom_1_option">কাস্টম বি (GZ)</string>
+    <string name="custom_2_option">কাস্টম সি (GZ)</string>
+    <string name="custom_3_option">কাস্টম ডি (GZ)</string>
+    <string name="custom_4_option">কাস্টম ই (GZ)</string>
+    <string name="custom_5_option">কাস্টম এফ (GZ)</string>
+    <string name="fly_down_option">নীচের দিকে উড়ে</string>
+    <string name="fly_up_option">উপরের দিকে উড়ে আসা</string>
+    <string name="fwd_option">সামনে যাও</string>
+    <string name="inv_drop_option">ড্রপ আইটেম</string>
+    <string name="inv_next_option">পরবর্তী আইটেম</string>
+    <string name="inv_prev_option">পূর্ববর্তী আইটেম</string>
+    <string name="inv_use_option">জিনিষ গুলো ব্যাবহার কর</string>
+    <string name="jump_option">ঝাঁপ দাও (জিজেড)</string>
+    <string name="left_option">বামে যাও</string>
+    <string name="look_left_option">বামে তাকাও</string>
+    <string name="look_right_option">ডানে তাকাও</string>
+    <string name="map_down_option">নিচে মানচিত্র সরান</string>
+    <string name="map_left_option">বাম দিকে সরান</string>
+    <string name="map_right_option">ডানদিকে সরান</string>
+    <string name="map_show_option">মানচিত্র দেখাও</string>
+    <string name="map_up_option">উপরে মানচিত্র সরান</string>
+    <string name="map_zoomin_option">মানচিত্র জুম</string>
+    <string name="map_zoomout_option">জুম আউট মানচিত্র</string>
+    <string name="menu_back_option">মেনু ফিরে</string>
+    <string name="menu_down_option">মেনু নিচে সরান</string>
+    <string name="menu_left_option">মেনু বাম</string>
+    <string name="menu_right_option">মেনু ঠিক আছে</string>
+    <string name="menu_select_option">মেনু নির্বাচন করুন</string>
+    <string name="menu_up_option">মেনু পদক্ষেপ আপ</string>
+    <string name="next_weapon_option">পরবর্তী অস্ত্র</string>
+    <string name="prev_weapon_option">বিগত অস্ত্র</string>
+    <string name="quick_load_option">দ্রুত লোড (GZ)</string>
+    <string name="quick_save_option">দ্রুত সংরক্ষণ (GZ)</string>
+    <string name="right_option">ডানে যাও</string>
+    <string name="show_keys_option">কীবোর্ড দেখান</string>
+    <string name="show_weap_option">পরিসংখ্যান / অস্ত্র দেখান</string>
+    <string name="speed_option">চলমান সক্ষম করুন</string>
+    <string name="strafe_on_option">সক্ষম করা বাম দিকে সরান / ডানদিকে সরান</string>
+    <string name="use_option">ব্যবহার / ওপেন</string>
+
+    <!-- options fragment -->
+    <string name="folder_name_prompt">ফ্রিডম ফোল্ডার</string>
+    <string name="wad_dir_prompt">কনফিগারেশন এবং সামগ্রী (WAD, DEH, etc.) फ़ोल्डर:</string>
+    <string name="divide_resolution_by_prompt">রেজোলিউশন দ্বারা ভাগ করুন: (পিছিয়ে হ্রাস):</string>
+    <string name="reset_button_text">রিসেট</string>
+    <string name="choose_button_text">চয়ন করুন</string>
+
+    <string-array name="double_tap_actions">
+        <item>না</item>
+        <item>অঙ্কুর</item>
+        <item>ঝাঁপ দাও</item>
+        <item>ব্যবহার</item>
+    </string-array>
+    <string-array name="double_tap_actions_jk">
+        <item>না</item>
+        <item>অঙ্কুর</item>
+        <item>ঝাঁপ দাও</item>
+        <item>ব্যবহার</item>
+        <item>ফোর্স ব্যবহার করুন</item>
+    </string-array>
+    <string-array name="quake2_hud_size">
+        <item>বড়</item>
+        <item>মধ্যম</item>
+        <item>ছোট</item>
+    </string-array>
+</resources>

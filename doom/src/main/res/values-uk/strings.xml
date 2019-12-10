@@ -1,53 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="dummy_string">REMOVEME ADDED TO KICK TRANSIFEX INTO PULLING ON COMMIT</string>
-    <string name="file_permission_fail_toast">OOPS! NO! NO! NO! ERROR! ERROR! ERROR! BAD! BAD! BAD!</string>
+    <string name="file_permission_fail_toast">На жаль! Freedoom потрібні дозволи файлів, щоб копіювати рівні на загальне сховище. Перезапустіть додаток</string>
     <string name="gamepad_tab">геймпад</string>
     <string name="options_tab">опції</string>
     <string name="no_iwads_err">Виберіть файл IWAD. Копіювати файли IWAD на:</string>
-    <string name="ok_confirm">В порядку</string>
-
-    <!-- gzdoom (freedoom) fragment-->
+    <!-- gzdoom (freedoom) fragment -->
     <string name="app_name">Freedoom</string>
-    <string name="start_full">Запуск</string>
-    <string name="start_wads">Аддони</string>
+    <string name="start_full">Початок</string>
+    <string name="start_wads">Доповнення</string>
     <!-- gamepad fragment -->
-    <string name="enable_game_pad_toggle">Увімкнення ігрової панелі</string>
+    <string name="enable_game_pad_toggle">увімкніть геймпад</string>
     <string name="hide_touch_controls_toggle">Сховати елементи керування Touch</string>
     <!-- gamepad fragment options -->
     <string name="look_up_down_option">Подивіться вгору / Погляд вниз</string>
-    <string name="look_left_right_option">Подивіться вліво / Подивіться правильно</string>
+    <string name="look_left_right_option">дивитися ліворуч / виглядати правильно</string>
     <string name="forward_back_option">Вперед / назад</string>
-    <string name="strafe_option">Страфе</string>
+    <string name="strafe_option">рухатися вліво і вправо</string>
     <string name="attack_option">Атака</string>
-    <string name="attack_alt_option">Alt Attack (GZ)</string>
+    <string name="attack_alt_option">Alt Атака (GZ)</string>
     <string name="move_back_option">Переміщення назад</string>
     <string name="crouch_option">Крауч (GZ)</string>
-    <string name="custom_0_option">Спеціальний A (GZ)</string>
-    <string name="custom_1_option">Користувацький B (GZ)</string>
-    <string name="custom_2_option">Спеціальний C (GZ)</string>
-    <string name="custom_3_option">Користувацький D (GZ)</string>
-    <string name="custom_4_option">Користувацький E (GZ)</string>
-    <string name="custom_5_option">Користувацький F (GZ)</string>
-    <string name="fly_down_option">Літайте вниз</string>
-    <string name="fly_up_option">Fly Up</string>
+    <string name="custom_0_option">налаштування A (GZ)</string>
+    <string name="custom_1_option">налаштування B (GZ)</string>
+    <string name="custom_2_option">налаштування C (GZ)</string>
+    <string name="custom_3_option">налаштування D (GZ)</string>
+    <string name="custom_4_option">налаштування E (GZ)</string>
+    <string name="custom_5_option">налаштування F (GZ)</string>
+    <string name="fly_down_option">літати вниз</string>
+    <string name="fly_up_option">літати вгору</string>
     <string name="fwd_option">Йти далі</string>
     <string name="inv_drop_option">Помістіть предмет</string>
     <string name="inv_next_option">Наступний елемент</string>
-    <string name="inv_prev_option">Попередня Пункт</string>
+    <string name="inv_prev_option">попереднього елемент </string>
     <string name="inv_use_option">Використовуйте елемент</string>
-    <string name="jump_option">Перейти (GZ)</string>
-    <string name="left_option">Страфе ліворуч</string>
+    <string name="jump_option">випорсати (GZ)</string>
+    <string name="left_option">рухатися вліво</string>
     <string name="look_left_option">Подивіться ліворуч</string>
     <string name="look_right_option">Подивіться правильно</string>
-    <string name="map_down_option">Automap Down</string>
-    <string name="map_left_option">Automap ліворуч</string>
-    <string name="map_right_option">Automap Right</string>
+    <string name="map_down_option">карта вниз</string>
+    <string name="map_left_option">карта ліворуч</string>
+    <string name="map_right_option">карта право</string>
     <string name="map_show_option">Показати автозапуск</string>
-    <string name="map_up_option">Automap Up</string>
-    <string name="map_zoomin_option">Automap Zoomin</string>
-    <string name="map_zoomout_option">Automap Zoomout</string>
+    <string name="map_up_option">карта вгору</string>
+    <string name="map_zoomin_option">карта приближувати</string>
+    <string name="map_zoomout_option">карта зменшення</string>
     <string name="menu_back_option">Меню Назад</string>
     <string name="menu_down_option">Меню Вниз</string>
     <string name="menu_left_option">Меню ліворуч</string>
@@ -58,30 +55,29 @@
     <string name="prev_weapon_option">Попередня зброя</string>
     <string name="quick_load_option">Швидке завантаження (GZ)</string>
     <string name="quick_save_option">Швидке збереження (GZ)</string>
-    <string name="right_option">Праворуч</string>
-    <string name="show_keys_option">Показати клавіші</string>
+    <string name="right_option">рухатися вправо</string>
+    <string name="show_keys_option">показати клавіатуру</string>
     <string name="show_weap_option">Показати статистику / Зброя</string>
-    <string name="speed_option">Працювати на</string>
-    <string name="strafe_on_option">Strafe On</string>
+    <string name="speed_option">увімкнути запуск</string>
+    <string name="strafe_on_option">увімкнути переміщення вліво / вправо</string>
     <string name="use_option">Використовувати / Відкрити</string>
 
     <!-- options fragment -->
     <string name="folder_name_prompt">Папка Freedoom</string>
-    <string name="wad_dir_prompt">Каталог конфігурації та контенту (WAD, DEH тощо).</string>
-    <string name="divide_resolution_by_prompt">Розділити роздільну здатність на:</string>
-    <string name="reset_button_text">скидання</string>
-    <string name="choose_button_text">вибрати</string>
+    <string name="wad_dir_prompt">Каталог конфігурації та контенту (WAD,  тощо) Папка.</string>
+    <string name="reset_button_text">Скидання</string>
+    <string name="choose_button_text">Виберіть</string>
 
     <string-array name="double_tap_actions">
         <item>Немає</item>
         <item>Стріляти</item>
-        <item>Перейти</item>
-        <item>Використовуйте</item>
+        <item>випорсати</item>
+        <item>використання</item>
     </string-array>
     <string-array name="double_tap_actions_jk">
         <item>Немає</item>
         <item>Стріляти</item>
-        <item>Перейти</item>
+        <item>використання</item>
         <item>Використовуйте</item>
         <item>Використовуйте силу</item>
     </string-array>

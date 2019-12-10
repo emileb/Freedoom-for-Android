@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="dummy_string">REMOVEME ADDED TO KICK TRANSIFEX INTO PULLING ON COMMIT</string>
-    <string name="file_permission_fail_toast">OOPS! NO! NO! NO! ERROR! ERROR! ERROR! BAD! BAD! BAD!</string>
+    <string name="file_permission_fail_toast">Opa! O Freedoom precisa de permissões de arquivo para copiar os níveis para o armazenamento compartilhado. Por favor, reinicie o aplicativo</string>
     <string name="gamepad_tab">gamepad</string>
     <string name="options_tab">Opções</string>
     <string name="no_iwads_err">Por favor, selecione um arquivo IWAD. Copie arquivos IWAD para:</string>
-    <string name="ok_confirm">Ok</string>
-
-    <!-- gzdoom (freedoom) fragment-->
+    <!-- gzdoom (freedoom) fragment -->
     <string name="app_name">Freedoom</string>
     <string name="start_full">Lancha</string>
     <string name="start_wads">Addons</string>
@@ -68,9 +65,9 @@
     <!-- options fragment -->
     <string name="folder_name_prompt">Freedoom Pasta</string>
     <string name="wad_dir_prompt">Configuração e conteúdo (WAD, etc.) pasta</string>
-    <string name="divide_resolution_by_prompt">Divide a resolução por:</string>
-    <string name="reset_button_text">restabelecer</string>
-    <string name="choose_button_text">Escolher</string>
+    <string name="divide_resolution_by_prompt">Розділіть роздільну здатність на (зменшує відставання)</string>
+    <string name="reset_button_text">скинути</string>
+    <string name="choose_button_text">вибрати</string>
 
     <string-array name="double_tap_actions">
         <item>Nenhum</item>
