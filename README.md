@@ -27,6 +27,10 @@ In addition, Freedoom is compatible with much of the vast library of fan-made "W
 ## Dev Blog (how I made this):
 https://matthew.krupczak.org/2019/10/20/hawking-my-projects-ii-500000-installs-with-freedoom-for-android/
 
+## Links to the freedoom community:
+[Freedoom official Github](https://github.com/freedoom/freedoom)
+[Freedoom forums (for the Freedoom project, not Freedoom for android)](https://github.com/freedoom/freedoom)
+
 ## "Third-party" library versions used (update this whenever they are updated)
 - [GZDoom Engine](https://github.com/coelckers/gzdoom): [2.0.02/2.0.03](https://github.com/coelckers/gzdoom/tree/df1364e2d7bc3f23a1a3b7afb4c0be731fe080f8) (super ancient)
 - [Fluidsynth](https://github.com/FluidSynth/fluidsynth): 1.0.9
