@@ -29,6 +29,8 @@ https://matthew.krupczak.org/2019/10/20/hawking-my-projects-ii-500000-installs-w
 
 ## Links to the freedoom community:
 [Freedoom official Github](https://github.com/freedoom/freedoom)
+
+
 [Freedoom forums (for the Freedoom project, not Freedoom for android)](https://github.com/freedoom/freedoom)
 
 ## "Third-party" library versions used (update this whenever they are updated)
