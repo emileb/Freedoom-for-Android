@@ -18,6 +18,10 @@ https://play.google.com/store/apps/details?id=net.nullsum.freedoom
 APK release:
 https://github.com/mkrupczak3/GZDoom-Android/releases
 
+Ember's Unofficial F-Droid Repo (I have not verified myself for security):
+https://fdroid.heartshine.xyz/
+
+
 
 ## Why Freedoom?
 While the Doom engine and its many spin-offs are open-sourced, most of the Doom's "assets" such as textures, sounds, and game levels are copyrighted and not legal to redistribute.
