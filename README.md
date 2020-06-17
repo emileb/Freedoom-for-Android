@@ -21,7 +21,7 @@ https://github.com/mkrupczak3/GZDoom-Android/releases
 Ember's Unofficial F-Droid Repo:
 https://fdroid.heartshine.xyz/
 
-(I have not verified this repo myself for security. At the time of writing, my latest release [v0.4.3] should have a [sha256](https://en.wikipedia.org/wiki/SHA-2) hash of 43c94079d78ed2dffb90e521ffcc74364706fb8e334ba55f15b43168450625c6)
+(I have not verified this repo myself for security. At the time of writing, my latest release [v0.4.3] should have a [sha256](https://en.wikipedia.org/wiki/SHA-2) hash of [43c94079d78ed2dffb90e521ffcc74364706fb8e334ba55f15b43168450625c6](https://twitter.com/Matts_Bytes/status/1273065495961513985?s=20))
 
 
 ## Why Freedoom?
