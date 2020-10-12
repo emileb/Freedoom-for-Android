@@ -4,7 +4,25 @@
 A fork of nvllsvm's GZDoom-Android port.
 My idea for this fork was to upgrade nvllsvn's GZDoom-Android port, fix the C/C++ engine bugs and the java app bugs, and combine it with the open-source Freedoom (freedoom1.wad and freedoom2.wad) assets to publish a completely open source android game running on the doom engine.
 
-This "bundling" has allowed it to reach a more diverse audience of users whom either don't own Doom or are averse to having to find and copy their legally-owned Doom resource files onto their phones. It has recently passed 600,000 downloads on the Play store.
+This "bundling" has allowed it to reach a more diverse audience of users whom either don't own Doom or are averse to having to find and copy their legally-owned Doom resource files onto their phones. It has nearly reached 1,000,000 downloads on the Play store.
+
+***IMPORTANT NOTICE***
+
+Like this app?
+
+It wouldn't be possible without the support of the Open Source Software community and the cooperation of many software companies, hardware vendors, and independent software developers.
+
+Nintendo has recently completed legal action (including arrests) against a tool distributor named Uber Chips which could set a dangerous precedent and threaten open source software and the freedom of tech marketplaces. 
+
+
+***END IMPORTANT NOTICE***
+
+
+Due to changes with the Google Play store, I have been unable to distribute my last update for this app on the GooglePlay store. The update contained a newer version of the Freedoom wad(s) and some language fixes, and is available on GitHub.
+
+Due to the deprecation of the build tools for this app, I have stopped active development. Please check out the GitHub and let me know if you are interested in taking over this project. 
+
+While this app will remain free and highly functional for most users, please also check out Beloko's 'DeltaTouch' as an alternative.
 
 
 ### Help translate!
