@@ -18,7 +18,7 @@ Nintendo has recently completed legal action (including arrests) against a tool 
 ***END IMPORTANT NOTICE***
 
 
-Due to changes with the Google Play store, I have been unable to distribute my last update for this app on the GooglePlay store. The update contained a newer version of the Freedoom wad(s) and some language fixes, and is available on GitHub.
+Due to changes with the Google Play store, I have been unable to distribute my last update for this app on the Play store. The update contained a newer version of the Freedoom wad(s) and some language fixes, and is available on GitHub.
 
 Due to the deprecation of the build tools for this app, I have stopped active development. Please check out the GitHub and let me know if you are interested in taking over this project. 
 
