@@ -12,7 +12,7 @@ Like this app?
 
 It wouldn't be possible without the support of the Open Source Software community and the cooperation of many software companies, hardware vendors, and independent software developers.
 
-Nintendo has recently completed legal action (including arrests) against a tool distributor named Uber Chips which could set a dangerous precedent and threaten open source software and the freedom of tech marketplaces. 
+Nintendo has recently completed legal action (including arrests) against a tool distributor named Uber Chips which could set a dangerous precedent and threaten the sustainability of open source software and the freedom of tech marketplaces. 
 
 
 ***END IMPORTANT NOTICE***
