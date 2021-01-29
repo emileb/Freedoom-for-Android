@@ -19,14 +19,15 @@ buildscript {
 }
 
 android {
-    signingConfigs {
-        config {
-            keyAlias 'key0'
-            keyPassword ''
-            storeFile file('C:/Users/matth/Dropbox/Keystore/mkrupczak3.jks')
-            storePassword ''
-        }
-    }
+
+    //signingConfigs {
+    //    config {
+    //        keyAlias 'key0'
+    //        keyPassword ''
+    //        storeFile file('C:/Users/matth/Dropbox/Keystore/mkrupczak3.jks')
+    //        storePassword ''
+    //    }
+    //}
 
     compileSdkVersion 26
     buildToolsVersion '28.0.3'
@@ -64,11 +65,11 @@ android {
 
     buildTypes {
         debug {
-            signingConfig signingConfigs.config
+            //signingConfig signingConfigs.config
             pseudoLocalesEnabled true
         }
         release {
-            signingConfig signingConfigs.config
+            //signingConfig signingConfigs.config
         }
     }
 

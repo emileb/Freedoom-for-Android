@@ -33,6 +33,7 @@ public class EntryActivity extends FragmentActivity {
     private static final String STATE_SELECTED_NAVIGATION_ITEM = "selected_navigation_item";
     private static final int PERMISSIONS_REQUEST_WRITE_EXTERNAL_STORAGE = 1;
     GamePadFragment gamePadFrag;
+    LaunchFragmentGZdoom launchFragmentGZdoom;
     String LOG = "EntryActivity";
 
     @Override
@@ -63,7 +64,7 @@ public class EntryActivity extends FragmentActivity {
         actionBar.setSelectedNavigationItem(0);
 
         gamePadFrag = (GamePadFragment) getFragmentManager().findFragmentByTag("gamepad");
-
+        launchFragmentGZdoom = (LaunchFragmentGZdoom) getFragmentManager().findFragmentByTag("Gzdoom");
     }
 
     public void restart(){
@@ -139,16 +140,10 @@ public class EntryActivity extends FragmentActivity {
         if (requestCode == PERMISSIONS_REQUEST_WRITE_EXTERNAL_STORAGE) {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 AppSettings.createDirectories(this);
-                Utils.copyFreedoomFilesToSD(this);
 
-//                // dirty hack :(
-//                final ActionBar actionBar = getActionBar();
-//                actionBar.setSelectedNavigationItem(1);
-//                actionBar.setSelectedNavigationItem(0);
+                launchFragmentGZdoom = (LaunchFragmentGZdoom) getFragmentManager().findFragmentByTag("Gzdoom");
 
-//                // Need to replace this hack since it is deprecated
-//                // Will now replace with a different hack (thanks Google! this is fun :/ )
-
+                launchFragmentGZdoom.copyAndUpdate();
 
             } else {
                 Toast.makeText(getActivity(), getResources().getString(R.string.file_permission_fail_toast),

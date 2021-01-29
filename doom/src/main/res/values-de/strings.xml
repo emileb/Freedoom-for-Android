@@ -9,7 +9,7 @@
     <string name="ok_confirm">OK</string>
 
     <!-- gzdoom (freedoom) fragment -->
-    <string name="app_name">Freedoom<br></string>
+    <string name="app_name">Freedoom</string>
     <string name="start_full">Starten</string>
     <string name="start_wads">Ergänzungen</string>
     <!-- gamepad fragment -->

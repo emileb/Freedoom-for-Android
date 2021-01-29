@@ -74,27 +74,6 @@ public class LaunchFragmentGZdoom extends Fragment {
 
         Log.d(LOG, "fullBaseDir is: " + fullBaseDir);
 
-        Utils.copyFreedoomFilesToSD(getActivity());
-
-//         Nasty hack to refresh view if this is the first launch and Freedoom files were copied
-        File hasRunTester = new File ( fullBaseDir + "/" + "firstrun");
-        if (!hasRunTester.exists()) {
-            Log.d(LOG, "firstrun file not found, proceeding with first launch hack");
-
-            Utils.copyAsset(getActivity(), "firstrun", fullBaseDir);
-            // Info of hack
-            // https://stackoverflow.com/questions/15262747/refresh-or-force-redraw-the-fragment
-
-            // simple refresh of wad list
-            (new Handler()).postDelayed(this::listRefreshHack, 10000);
-
-
-
-
-        // END HACK
-        }
-
-
         argsEditText = mainView.findViewById(R.id.extra_args_edittext);
         gameArgsTextView = mainView.findViewById(R.id.extra_args_textview);
         listview = mainView.findViewById(R.id.listView);
@@ -145,27 +124,24 @@ public class LaunchFragmentGZdoom extends Fragment {
             builder.show();
         });
 
-        refreshGames();
+        copyAndUpdate();
 
         return mainView;
     }
 
-    void listRefreshHack() {
-        Log.d(LOG, "HACK refreshing wad list");
+    void copyAndUpdate() {
+        Log.d(LOG, "copyAndUpdate");
 
-        // Doesn't work
+        File hasRunTester = new File ( fullBaseDir + "/" + "firstrun");
+        if (!hasRunTester.exists()) {
+            Log.d(LOG, "firstrun file not found, proceeding with first launch hack");
+            Utils.copyAsset(getActivity(), "firstrun", fullBaseDir);
+            Utils.copyFreedoomFilesToSD(getActivity());
+        }
+
+        refreshGames();
+
         listAdapter.notifyDataSetChanged();
-
-//         // Extremely aggressive redraw of wad list
-//         listview.invalidateViews();
-
-        // Force the main activity to respawn (nuclear option) @TODO fix me
-        ((EntryActivity)getActivity()).restart();
-
-////         Aggressive hack which forces the entire fragment to redraw
-//        FragmentTransaction tr = getFragmentManager().beginTransaction();
-//        tr.replace(((ViewGroup)getView().getParent()).getId(), this);
-//        tr.commit();
     }
 
     void startGame(final String base, boolean ignoreMusic, final String moreArgs) {
