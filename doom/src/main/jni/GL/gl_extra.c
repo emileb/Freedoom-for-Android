@@ -529,7 +529,7 @@ GLint gluScaleImage(GLenum format,
 {
 	LOGI("My gluScaleImage");
 	memcpy(dst, src, ((dst_width * dst_height * 4) < (src_width * src_height * 4))?(dst_width * dst_height * 4): (src_width * src_height * 4));
-	return;
+	return 0;
 	//const struct format *srcfmt = __pspglu_getformat(format, src_type);
 	//const struct format *dstfmt = __pspglu_getformat(format, dst_type);
 	pix_t *image = src;

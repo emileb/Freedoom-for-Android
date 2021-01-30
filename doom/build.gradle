@@ -48,8 +48,10 @@ android {
     }
 */
     sourceSets.main {
+        jni.srcDirs = []
         jniLibs.srcDir 'src/main/libs'
     }
+
 
     tasks.whenTaskAdded { task ->
         if (task.name == "compileDebugNdk") {
@@ -69,7 +71,22 @@ android {
             pseudoLocalesEnabled true
         }
         release {
-            //signingConfig signingConfigs.config
+            //  signingConfig signingConfigs.config
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            ndk {
+                abiFilters "armeabi-v7a"
+            }
+        }
+        debug {
+            ndk {
+                abiFilters "armeabi-v7a"
+            }
         }
     }
 
@@ -90,6 +107,7 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: '../libs')
+
     implementation project(':touchcontrols')
     implementation "com.android.support:appcompat-v7:$android_support_version"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"

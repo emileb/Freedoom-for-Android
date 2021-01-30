@@ -143,10 +143,12 @@ typedef struct
 	GLboolean scissor_test;
 	GLboolean stencil_test;
 	GLboolean depthmask;
+
 	GLboolean colormask_r;
 	GLboolean colormask_g;
 	GLboolean colormask_b;
 	GLboolean colormask_a;
+
 	GLboolean clip_plane_0;
 	GLboolean clip_plane_1;
 	GLboolean clip_plane_2;
@@ -205,6 +207,8 @@ static nanoState nanoglInitState =
 		GL_FALSE,
 		GL_FALSE,
 		GL_FALSE,
+		GL_FALSE,
+
 		0.0f,
 		1.0f,
 		GL_LESS,
@@ -2496,10 +2500,10 @@ void nanoglDrawArrays (GLenum mode, GLint first, GLsizei count)
 void  nanoglRectd(	GLdouble  	x1,	GLdouble  	y1,	GLdouble  	x2,	GLdouble  	y2)
 {
 	GLfloat q3[] = {
-			x1, y1,
-			x2, y1,
-			x2, y2,
-			x1, y2
+			(GLfloat)x1, (GLfloat)y1,
+			(GLfloat)x2, (GLfloat)y1,
+			(GLfloat)x2, (GLfloat)y2,
+			(GLfloat)x1, (GLfloat)y2
 	};
 
 	glEnableClientState(GL_VERTEX_ARRAY);
