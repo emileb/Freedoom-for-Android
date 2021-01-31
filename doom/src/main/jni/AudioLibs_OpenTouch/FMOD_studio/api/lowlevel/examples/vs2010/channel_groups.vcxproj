@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="NsightTegraProject">
+    <NsightTegraProjectRevisionNumber>9</NsightTegraProjectRevisionNumber>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AArch64-Android-NVIDIA">
+      <Configuration>Debug</Configuration>
+      <Platform>AArch64-Android-NVIDIA</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM-Android-NVIDIA">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM-Android-NVIDIA</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86-Android-NVIDIA">
+      <Configuration>Debug</Configuration>
+      <Platform>x86-Android-NVIDIA</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64-Android-NVIDIA">
+      <Configuration>Debug</Configuration>
+      <Platform>x64-Android-NVIDIA</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AArch64-Android-NVIDIA">
+      <Configuration>Release</Configuration>
+      <Platform>AArch64-Android-NVIDIA</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM-Android-NVIDIA">
+      <Configuration>Release</Configuration>
+      <Platform>ARM-Android-NVIDIA</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86-Android-NVIDIA">
+      <Configuration>Release</Configuration>
+      <Platform>x86-Android-NVIDIA</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64-Android-NVIDIA">
+      <Configuration>Release</Configuration>
+      <Platform>x64-Android-NVIDIA</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3AAF4202-1C85-42C1-9B40-2F70A9ECB9AA}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <AndroidStlType>stlport_shared</AndroidStlType>
+    <AndroidTargetAPI>android-23</AndroidTargetAPI>
+    <AndroidMinAPI Condition="'$(Platform)'=='AArch64-Android-NVIDIA'">android-21</AndroidMinAPI>
+    <AndroidMinAPI Condition="'$(Platform)'=='x64-Android-NVIDIA'">android-21</AndroidMinAPI>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup>
+    <TargetName>libexample</TargetName>
+    <FastDeploy>false</FastDeploy>
+    <OutDir>$(SolutionDir)_builds\$(ProjectName)\$(Configuration)\$(ArchAbi)\Output\</OutDir>
+    <IntDir>$(SolutionDir)_builds\$(ProjectName)\$(Configuration)\$(ArchAbi)\Intermediate\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\inc</AdditionalIncludeDirectories>
+    </ClCompile>
+    <AntBuild>
+      <JavaSourceDir>..\java</JavaSourceDir>
+      <JarDirectories>..\..\lib</JarDirectories>
+      <JarDependencies>fmod.jar</JarDependencies>
+      <NativeLibDirectories>..\..\lib\$(ArchAbi)</NativeLibDirectories>
+      <NativeLibDependencies Condition="'$(Configuration)'=='Debug'">fmodL</NativeLibDependencies>
+      <NativeLibDependencies Condition="'$(Configuration)'=='Release'">fmod</NativeLibDependencies>
+      <AssetsDirectories>..\media</AssetsDirectories>
+      <AndroidManifestLocation>AndroidManifest.xml</AndroidManifestLocation>
+      <AntBuildType>Debug</AntBuildType>
+    </AntBuild>
+    <Link>
+      <AdditionalLibraryDirectories>..\..\lib\$(ArchAbi)</AdditionalLibraryDirectories>
+      <AdditionalDependencies Condition="'$(Configuration)'=='Debug'">fmodL</AdditionalDependencies>
+      <AdditionalDependencies Condition="'$(Configuration)'=='Release'">fmod</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\common.h" />
+    <ClCompile Include="..\common.cpp" />
+    <ClInclude Include="..\common_platform.h" />
+    <ClCompile Include="..\common_platform.cpp" />
+    <JCompile Include="..\java\org\fmod\example\MainActivity.java" />
+    <AndroidBuild Include="AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\channel_groups.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

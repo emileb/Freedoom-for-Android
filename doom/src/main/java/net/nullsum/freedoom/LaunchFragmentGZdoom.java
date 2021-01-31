@@ -132,10 +132,10 @@ public class LaunchFragmentGZdoom extends Fragment {
     void copyAndUpdate() {
         Log.d(LOG, "copyAndUpdate");
 
-        File hasRunTester = new File ( fullBaseDir + "/" + "firstrun");
+        File hasRunTester = new File ( fullBaseDir + "/" + "firstrun_v2");
         if (!hasRunTester.exists()) {
             Log.d(LOG, "firstrun file not found, proceeding with first launch hack");
-            Utils.copyAsset(getActivity(), "firstrun", fullBaseDir);
+            Utils.copyAsset(getActivity(), "firstrun_v2", fullBaseDir);
             Utils.copyFreedoomFilesToSD(getActivity());
         }
 

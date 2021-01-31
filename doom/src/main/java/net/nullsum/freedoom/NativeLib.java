@@ -110,7 +110,7 @@ public class NativeLib implements ControlInterface {
 
             //System.loadLibrary("fmodL");
 
-            System.loadLibrary("fmod");
+            //System.loadLibrary("fmod");
             System.loadLibrary("openal");
             //System.loadLibrary("output_sdl");
             System.loadLibrary("gzdoom");
