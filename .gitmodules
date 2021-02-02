@@ -4,3 +4,6 @@
 [submodule "doom/src/main/jni/gzdoom_android"]
 	path = doom/src/main/jni/gzdoom_android
 	url = https://github.com/emileb/gzdoom.git
+[submodule "doom/src/main/jni/jwzgles"]
+	path = doom/src/main/jni/jwzgles
+	url = https://github.com/emileb/jwzgles.git
