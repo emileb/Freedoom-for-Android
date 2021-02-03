@@ -4,7 +4,6 @@ import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 
-import com.bda.controller.Controller;
 import com.beloko.touchcontrols.ControlConfig.Type;
 
 import java.io.IOException;
@@ -101,24 +100,6 @@ public class ControlInterpreter {
         return true;
     }
 
-    public void onMogaKeyEvent(com.bda.controller.KeyEvent event, int pad_version) {
-        int keycode = event.getKeyCode();
-
-        if (pad_version == Controller.ACTION_VERSION_MOGA) {
-            //Log.d(LOG,"removed");
-            if ((keycode == com.bda.controller.KeyEvent.KEYCODE_DPAD_DOWN) ||
-                    (keycode == com.bda.controller.KeyEvent.KEYCODE_DPAD_UP) ||
-                    (keycode == com.bda.controller.KeyEvent.KEYCODE_DPAD_LEFT) ||
-                    (keycode == com.bda.controller.KeyEvent.KEYCODE_DPAD_RIGHT))
-                return;
-        }
-
-        if (event.getAction() == com.bda.controller.KeyEvent.ACTION_DOWN)
-            onKeyDown(keycode, null);
-        else if (event.getAction() == com.bda.controller.KeyEvent.ACTION_UP)
-            onKeyUp(keycode, null);
-    }
-
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         boolean used = false;
         if (gamePadEnabled) {
@@ -190,12 +171,6 @@ public class ControlInterpreter {
     //This is for normal Android motion event
     public boolean onGenericMotionEvent(MotionEvent event) {
         genericAxisValues.setAndroidValues(event);
-        return onGenericMotionEvent(genericAxisValues);
-    }
-
-    //This is for Moga event
-    public boolean onGenericMotionEvent(com.bda.controller.MotionEvent event) {
-        genericAxisValues.setMogaValues(event);
         return onGenericMotionEvent(genericAxisValues);
     }
 

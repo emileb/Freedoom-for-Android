@@ -16,10 +16,6 @@ import android.widget.CheckBox;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.bda.controller.Controller;
-import com.bda.controller.ControllerListener;
-import com.bda.controller.StateEvent;
-
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -27,13 +23,11 @@ public class GamePadFragment extends Fragment {
     //This is a bit shit, set this before instantiating the fragment
     public static ArrayList<ActionInput> gamepadActions;
     final String LOG = "GamePadFragment";
-    final MogaControllerListener mListener = new MogaControllerListener();
     ListView listView;
     ControlListAdapter adapter;
     TextView info;
     ControlConfig config;
     GenericAxisValues genericAxisValues = new GenericAxisValues();
-    Controller mogaController = null;
     boolean isHidden = true;
 
     @Override
@@ -60,10 +54,6 @@ public class GamePadFragment extends Fragment {
             //e.printStackTrace();
         }
 
-
-        mogaController = Controller.getInstance(getActivity());
-        MogaHack.init(mogaController, getActivity());
-        mogaController.setListener(mListener, new Handler());
     }
 
     @Override
@@ -75,19 +65,16 @@ public class GamePadFragment extends Fragment {
     @Override
     public void onPause() {
         super.onPause();
-        mogaController.onPause();
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        mogaController.onResume();
     }
 
     @Override
     public void onDestroy() {
         super.onDestroy();
-        mogaController.exit();
     }
 
 
@@ -213,31 +200,4 @@ public class GamePadFragment extends Fragment {
 
     }
 
-    class MogaControllerListener implements ControllerListener {
-
-        @Override
-        public void onKeyEvent(com.bda.controller.KeyEvent event) {
-            //Log.d(LOG, "onKeyEvent " + event.getKeyCode());
-
-            if (event.getAction() == com.bda.controller.KeyEvent.ACTION_DOWN)
-                onKeyDown(event.getKeyCode(), null);
-            else if (event.getAction() == com.bda.controller.KeyEvent.ACTION_UP)
-                onKeyUp(event.getKeyCode(), null);
-        }
-
-        @Override
-        public void onMotionEvent(com.bda.controller.MotionEvent event) {
-            //Log.d(LOG, "onGenericMotionEvent " + event.toString());
-
-            genericAxisValues.setMogaValues(event);
-
-            if (config.onGenericMotionEvent(genericAxisValues))
-                adapter.notifyDataSetChanged();
-        }
-
-        @Override
-        public void onStateEvent(StateEvent event) {
-            Log.d(LOG, "onStateEvent " + event.getState());
-        }
-    }
 }
