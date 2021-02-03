@@ -33,6 +33,7 @@ android {
     buildToolsVersion '28.0.3'
 
     defaultConfig {
+        ndkVersion "21.3.6528147"
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 19
