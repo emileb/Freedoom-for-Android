@@ -18,11 +18,6 @@ public class GenericAxisValues {
             values[n] = event.getAxisValue(n);
     }
 
-    public void setMogaValues(com.bda.controller.MotionEvent event) {
-        values[MotionEvent.AXIS_X] = event.getAxisValue(MotionEvent.AXIS_X);
-        values[MotionEvent.AXIS_Y] = event.getAxisValue(MotionEvent.AXIS_Y);
-        values[MotionEvent.AXIS_Z] = event.getAxisValue(MotionEvent.AXIS_Z);
-        values[MotionEvent.AXIS_RZ] = event.getAxisValue(MotionEvent.AXIS_RZ);
-    }
+
 
 }

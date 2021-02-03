@@ -28,12 +28,8 @@ import android.view.MotionEvent;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.bda.controller.Controller;
-import com.bda.controller.ControllerListener;
-import com.bda.controller.StateEvent;
 import com.beloko.libsdl.SDLLib;
 import com.beloko.touchcontrols.ControlInterpreter;
-import com.beloko.touchcontrols.MogaHack;
 import com.beloko.touchcontrols.ShowKeyboard;
 import com.beloko.touchcontrols.TouchControlsEditing;
 import com.beloko.touchcontrols.TouchControlsSettings;
@@ -44,9 +40,9 @@ import javax.microedition.khronos.opengles.GL10;
 
 
 public class Game extends Activity implements Handler.Callback {
-    private final MogaControllerListener mogaListener = new MogaControllerListener();
+
     String LOG = "Game";
-    Controller mogaController = null;
+
     Activity act;
     int surfaceWidth = -1, surfaceHeight;
     int resDiv = 1;
@@ -75,10 +71,6 @@ public class Game extends Activity implements Handler.Callback {
         gamePath = getIntent().getStringExtra("game_path");
         setupLaunch = getIntent().getBooleanExtra("setup_launch", false);
         resDiv = getIntent().getIntExtra("res_div", 1);
-
-        mogaController = Controller.getInstance(this);
-        MogaHack.init(mogaController, this);
-        mogaController.setListener(mogaListener, new Handler());
 
         // fullscreen
         requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -139,7 +131,6 @@ public class Game extends Activity implements Handler.Callback {
         Log.i(LOG, "onPause");
         SDLLib.nativePause();
         SDLLib.onPause();
-        mogaController.onPause();
         super.onPause();
     }
 
@@ -148,7 +139,6 @@ public class Game extends Activity implements Handler.Callback {
         Log.i(LOG, "onResume");
         SDLLib.nativeResume();
         SDLLib.onResume();
-        mogaController.onResume();
         super.onResume();
         mGLSurfaceView.onResume();
     }
@@ -157,7 +147,6 @@ public class Game extends Activity implements Handler.Callback {
     protected void onDestroy() {
         Log.i(LOG, "onDestroy");
         super.onDestroy();
-        mogaController.exit();
         System.exit(0);
     }
 
@@ -165,25 +154,6 @@ public class Game extends Activity implements Handler.Callback {
     public boolean handleMessage(Message msg) {
         // TODO Auto-generated method stub
         return false;
-    }
-
-    class MogaControllerListener implements ControllerListener {
-
-        @Override
-        public void onKeyEvent(com.bda.controller.KeyEvent event) {
-            //Log.d(LOG, "onKeyEvent " + event.getKeyCode());
-            controlInterp.onMogaKeyEvent(event, mogaController.getState(Controller.STATE_CURRENT_PRODUCT_VERSION));
-        }
-
-        @Override
-        public void onMotionEvent(com.bda.controller.MotionEvent event) {
-            controlInterp.onGenericMotionEvent(event);
-        }
-
-        @Override
-        public void onStateEvent(StateEvent event) {
-            Log.d(LOG, "onStateEvent " + event.getState());
-        }
     }
 
 
@@ -194,7 +164,6 @@ public class Game extends Activity implements Handler.Callback {
         /*--------------------
          * Event handling
          *--------------------*/
-
 
         public GameView(Context context) {
             super(context);

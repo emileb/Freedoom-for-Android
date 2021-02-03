@@ -121,6 +121,9 @@ public class ControlConfig implements Serializable {
     public static final int MENU_RIGHT = 0x203;
     public static final int MENU_SELECT = 0x204;
     public static final int MENU_BACK = 0x205;
+
+    public enum Type {ANALOG, BUTTON, MENU}
+
     /**
      *
      */
@@ -434,5 +437,4 @@ public class ControlConfig implements Serializable {
         return view;
     }
 
-    public enum Type {ANALOG, BUTTON, MENU}
 }
