@@ -9,7 +9,7 @@ include $(TOP_DIR)/AudioLibs_OpenTouch/libsndfile-android/jni/Android.mk
 include $(TOP_DIR)/AudioLibs_OpenTouch/libmpg123/Android.mk
 include $(TOP_DIR)/AudioLibs_OpenTouch/fluidsynth-lite/src/Android.mk
 include $(TOP_DIR)/AudioLibs_OpenTouch/openal/Android.mk
-include $(TOP_DIR)/AudioLibs_OpenTouch/FMOD_Studio/Android.mk
+include $(TOP_DIR)/AudioLibs_OpenTouch/FMOD_studio/Android.mk
 include $(TOP_DIR)/AudioLibs_OpenTouch/android_external_flac/Android.mk
 
 include $(TOP_DIR)/jpeg8d/Android.mk
